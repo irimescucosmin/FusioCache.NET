@@ -1,0 +1,14 @@
+@FusionCacheNET_HostAddress = http://localhost:5004
+
+GET {{FusionCacheNET_HostAddress}}/FusionCache/SyncCache/
+Accept: application/json
+
+###
+
+GET {{FusionCacheNET_HostAddress}}/FusionCache/CacheData
+Accept: application/json
+
+###
+
+GET {{FusionCacheNET_HostAddress}}/FusionCache/NoCacheData/
+Accept: application/json
